@@ -2,11 +2,10 @@
 Sistema CLibras Aberta
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 Mantenedor : Rodrigo dittmar
-Licença    : Uso exclusivo
 
-Desenvolvido originalmente por Rodrigo Dittmar (rodrigo.dittmar@gmail.com) para o projeto SICE - Empresa : E-So
-lution Informática - Cedido gratuitamente para utilização junto ao projeto CLibras Aberta pela UFPR.
-
+Desenvolvido originalmente por Rodrigo Dittmar (rodrigo.dittmar@gmail.com) para:
+Empresa : E-Solution Informática - SICE
+ 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 _lib - Bibliotecas utilizadas
   _functions.php  - Funções gerais sistemas e configurações
