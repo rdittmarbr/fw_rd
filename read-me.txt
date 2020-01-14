@@ -1,0 +1,17 @@
+--------------------------------------------------------------------------------------------------------------
+Sistema CLibras Aberta
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Mantenedor : Rodrigo dittmar
+Licença    : Uso exclusivo
+
+Desenvolvido originalmente por Rodrigo Dittmar (rodrigo.dittmar@gmail.com) para o projeto SICE - Empresa : E-So
+lution Informática - Cedido gratuitamente para utilização junto ao projeto CLibras Aberta pela UFPR.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+_lib - Bibliotecas utilizadas
+  _functions.php  - Funções gerais sistemas e configurações
+  _TcBBB.php      - Comunicação com o servidor BBB
+  _TcDB.php       - Coneccao ao Banco de dados / Manutencao de Dados
+  _TcDebug.php    - Log das classes (Arquivo texto _log )
+  _TcPackage.php  - Gerenciamento de Módulos e Pacotes de Dados
+  _TcUser.php     - Manutenção de usuáros
