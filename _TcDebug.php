@@ -136,7 +136,7 @@ Class TcDebug extends stdClass {
       fwrite($aFile , "IP : " . $this -> FConfig['ip'] . "(".ES_DEBUGLEVEL.")" . ES_SYTEXTEOF );
       if ( $this -> FConfig['config'] ) {
         fwrite($aFile, str_pad('',60,'-') . ES_SYTEXTEOF );
-        fwrite($aFile, 'ES       :' . ES . ES_PATH . ES_SYTEXTEOF  );
+        fwrite($aFile, 'ES_PATH  :' . ES_PATH . ES_SYTEXTEOF  );
         fwrite($aFile, 'ES_LIB   :' . ES_LIB . ES_SYTEXTEOF  );
         fwrite($aFile, 'ES_HTML  :' . ES_HTML . ES_SYTEXTEOF  );
         fwrite($aFile, 'ES_LOG   :' . ES_LOG . ES_SYTEXTEOF );
