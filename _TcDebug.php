@@ -141,6 +141,7 @@ Class TcDebug extends stdClass {
         fwrite($aFile, 'ES_HTML  :' . ES_HTML . ES_SYTEXTEOF  );
         fwrite($aFile, 'ES_LOG   :' . ES_LOG . ES_SYTEXTEOF );
         fwrite($aFile, 'ES_MODULE:' . ES_MODULE . ES_SYTEXTEOF );
+        fwrite($aFile, 'REQUEST_URI:' . $_SERVER['REQUEST_URI'] . ES_SYTEXTEOF );
         fwrite($aFile, str_pad('',60,'-') . ES_SYTEXTEOF );
         foreach (getallheaders() as $name => $value) {
           fwrite($aFile, $name .':' . $value . ES_SYTEXTEOF );

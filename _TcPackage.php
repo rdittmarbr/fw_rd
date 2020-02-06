@@ -316,8 +316,6 @@ Class TcPackage extends stdClass {
 				$this->FModule[$aForm]['main'][$aContainer] = preg_replace( '/\s*\>\s+\</'       , '><' , $this->FModule[$aForm]['main'][$aContainer] );  // Substituindo caracteres de espaço entre as tags
 				$this->FModule[$aForm]['main'][$aContainer] = trim( $this->FModule[$aForm]['main'][$aContainer] );                                        // Trim
 
-
-
 				$aContainer = next($this->FModule[$aForm]['form']['container']);
 			}
 		}
