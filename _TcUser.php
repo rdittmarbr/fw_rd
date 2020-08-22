@@ -127,6 +127,8 @@ class TcUser {
       $this -> FQuery = new TcQuery_light( $this -> FOwner.'.TcUser' , $this -> FDB , $this -> FDebug );
     }
 
+
+    // INACABADO
     if( $this -> FConfig['log']['access'] ) {
 
     } else if ( $this -> FConfig['log']['login'] == "Y" ) {
