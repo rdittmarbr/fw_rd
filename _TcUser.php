@@ -66,7 +66,7 @@ class TcUser {
 		$this -> FDB    = $aTcDB;             // Objeto TcDB
 
     $this -> FDebug         = $aTcDebug;                  // Objeto TcDebug
-    $this -> FDebugLevel    = array(0,0,0,0,0,0,0,0,0,0); //Nivel do Log/Debug
+    $this -> FDebugLevel    = array(0,0,0,0,0,0,0,0,0,0); // Nivel do Log/Debug
     $this -> FConfig = array('multiple' => true,          // Múltiplas instâncias
                              'timeout'  => 6000 ,         // Timeout - Login
                              'project'  => null ,         // Dados do projeto
